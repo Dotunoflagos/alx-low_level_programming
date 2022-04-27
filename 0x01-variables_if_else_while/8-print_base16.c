@@ -5,8 +5,8 @@
 
 #include <stdio.h>
 
-/*
- * main - Prints all the numbers of base 16 in lowercase.
+/**
+ * main - Prints the lowercase alphabet in reverse.
  *
  * Return: Always 0.
  */
