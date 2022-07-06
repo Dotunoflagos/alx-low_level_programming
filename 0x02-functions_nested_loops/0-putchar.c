@@ -11,7 +11,7 @@ int main(void)
 
 	while (i < 7)
 	{
-		_putchar(*wrd[i]);
+		_putchar(wrd[i]);
 		i++;
 	}
 	_putchar(*wrd);
