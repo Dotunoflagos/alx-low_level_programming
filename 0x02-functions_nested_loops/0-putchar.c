@@ -11,9 +11,8 @@ int main(void)
 
 	while (i < 7)
 	{
+		++i;
 		_putchar(wrd[i]);
-		i++;
 	}
-	_putchar(*wrd);
 	return (0);
 }
