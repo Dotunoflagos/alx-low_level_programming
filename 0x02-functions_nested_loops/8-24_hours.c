@@ -7,23 +7,16 @@ void jack_bauer(void)
 {
 	int c = 0;
 
-	for (c = 0; c < 24; c++)
+	for (c = 30; c < 32;  c++)
 	{
 		int d = 0;
 
-		for (d = 0; d < 60; d++)
+		for (d = 30; d < 39; d++)
 		{
-		if (c < 10)
-			_putchar('0');
-
-		_putchar('0' + c);
-		_putchar(':');
-
-		if (d < 10)
-			_putchar('0');
-		
-		printf("%d", d);
-		_putchar('\n');
+			_putchar('0' + c);
+			_putchar(':');
+			_putchar(d);
+			_putchar('\n');
 		}
 	}
 }
