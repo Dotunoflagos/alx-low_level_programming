@@ -6,8 +6,14 @@
  */
 int main(void)
 {
-	char c[] = "_putchar";
+	char wrd[] = "_putchar";
+	int i = 0;
 
-	_putchar(c[]);
+	while (i < 7)
+	{
+		_putchar(*wrd[i]);
+		i++;
+	}
+	_putchar(*wrd);
 	return (0);
 }
