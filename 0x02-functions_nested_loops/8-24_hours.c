@@ -5,12 +5,11 @@
 */
 void jack_bauer(void)
 {
-	int c = 0;
+	int c d;
 
 	for (c = 48; c < 50;  c++)
 	{
 		_putchar(c);
-		int d = 0;
 
 		for (d = 48; d < 57; d++)
 		{
