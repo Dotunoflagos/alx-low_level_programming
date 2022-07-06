@@ -11,13 +11,17 @@ void jack_bauer(void)
 	{
 		for (d = 48; d < 57; d++)
 		{
-			for (e = 48; e < 57; e++)
+			for (e = 48; e < 53; e++)
 			{
-			_putchar(c);
-			_putchar(d);
-			_putchar(':');
-			_putchar(e);
-			_putchar('\n');
+				for (f = 48; f < 57; f++)
+				{
+				_putchar(c);
+				_putchar(d);
+				_putchar(':');
+				_putchar(e);
+				_putchar(f);
+				_putchar('\n');
+				}
 			}
 		}
 	}
