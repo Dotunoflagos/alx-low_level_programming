@@ -5,7 +5,7 @@
 */
 void jack_bauer(void)
 {
-	int c, d, e;
+	int c, d, e, f;
 
 	for (c = 48; c < 50;  c++)
 	{
