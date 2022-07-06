@@ -9,10 +9,10 @@ int main(void)
 	char wrd[] = "_putchar";
 	int i = 0;
 
-	while (i < 9)
+	while (i < 10)
 	{
 		_putchar(wrd[i]);
-		i++;
+		ii++;
 	}
 	return (0);
 }
