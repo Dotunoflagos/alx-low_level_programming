@@ -22,7 +22,7 @@ void jack_bauer(void)
 		if (d < 10)
 			_putchar('0');
 		
-		_putchar('0' + d);
+		printf("%d", d);
 		_putchar('\n');
 		}
 	}
