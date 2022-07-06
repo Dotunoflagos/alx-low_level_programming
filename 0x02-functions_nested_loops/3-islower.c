@@ -1,10 +1,8 @@
 #include "main.h"
 /**
-*_islower - check the code
-*
-*parameter c: somenhin.
-*
-*Return: 1 or 0.
+* _islower - Short description, single line
+* @c: Parameter c
+* Return: Returns 1 or 0
 */
 int _islower(int c)
 {
