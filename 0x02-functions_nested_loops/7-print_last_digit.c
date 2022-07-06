@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+* print_last_digit - Short description, single line
+* @c: Parameter c
+* Return: Returns 1 or 0 or -1
+*/
+int print_last_digit(int c)
+{
+	c %= 10;
+	_putchar(c);
+	return (c);
+}
+	
+
