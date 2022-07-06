@@ -9,7 +9,7 @@ void jack_bauer(void)
 
 	for (c = 48; c < 51;  c++)
 	{
-		for (d = 48; d < 54; d++)
+		for (d = 48; d < 58; d++)
 		{
 			for (e = 48; e < 54; e++)
 			{
@@ -21,6 +21,10 @@ void jack_bauer(void)
 				_putchar(e);
 				_putchar(f);
 				_putchar('\n');
+				if (c == 2 && d == 3 && e == 5 && f == 9)
+				{
+					break
+				}
 				}
 			}
 		}
