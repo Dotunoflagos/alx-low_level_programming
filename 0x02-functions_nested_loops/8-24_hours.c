@@ -21,10 +21,10 @@ void jack_bauer(void)
 					_putchar(e);
 					_putchar(f);
 					_putchar('\n');
-					if (e == 53)
+					if (c == 50 && d == 51)
 					{
 						break;
-						if (d == 57 && c == 50)
+						if (e == 53 && f == 57)
 						{
 							break;
 						}
