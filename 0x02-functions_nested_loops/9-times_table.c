@@ -25,7 +25,7 @@ void times_table(void)
         {
                 for (d = 0; d <= 9; d++)
                 {
-                        int e = c * d;
+                        e = c * d;
 
                         if (d != 0)
                         {
