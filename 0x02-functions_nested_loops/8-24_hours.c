@@ -1,7 +1,7 @@
 #include "main.h"
-/*
-* jack_bauer - Short description, single lin
-* discription:ssdfs
+
+/**
+* jack_bauer - Prints 24hr time.
 */
 void jack_bauer(void)
 {
@@ -9,19 +9,10 @@ void jack_bauer(void)
 
 	for (c = 48; c < 51;  c++)
 	{
-		if (c == 49)
-			break;
-
 		for (d = 48; d < 58; d++)
 		{
-			if (d == 45)
-				break;
-
 			for (e = 48; e < 54; e++)
 			{
-				if (e == 51)
-					break;
-
 				for (f = 48; f < 58; f++)
 				{
 					_putchar(c);
@@ -30,8 +21,16 @@ void jack_bauer(void)
 					_putchar(e);
 					_putchar(f);
 					_putchar('\n');
+					if (c == 50 && d == 51 && e == 53 && f == 57)
+						break;
 				}
+				if (c == 50 && d == 51 && e == 53)
+					break;
 			}
+			if (c == 50 && d == 51)
+				break;
 		}
+		if (c == 50)
+			break;
 	}
 }
