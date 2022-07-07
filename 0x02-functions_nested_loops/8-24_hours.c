@@ -9,7 +9,7 @@ void jack_bauer(void)
 
 	for (c = 48; c < 51;  c++)
 	{
-		if (c == 47)
+		if (c == 49)
 			break;
 		else
 		{
