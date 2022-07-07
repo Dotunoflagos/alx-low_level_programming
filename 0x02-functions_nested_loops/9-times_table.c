@@ -7,7 +7,7 @@
 void print(long n)
 {
     if (n < 0) {
-        putchar('-');
+        _putchar('-');
         n = -n;
     }
 
