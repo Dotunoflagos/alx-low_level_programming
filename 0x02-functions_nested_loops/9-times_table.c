@@ -17,7 +17,7 @@ void print(long n)
     _putchar(n%10 + '0');
 }
 
-void times_table(void))
+void times_table(void)
 {
         int c, d, e;
 
