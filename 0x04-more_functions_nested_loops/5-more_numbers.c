@@ -12,9 +12,9 @@ void print(int n)
 }
 
 /**
- * print_more_numbers - prints the alphabet in lowercase.
+ * more_numbers - prints the alphabet in lowercase.
  */
-void print_more_numbers(void)
+void more_numbers(void)
 {
 	int c, d;
 
