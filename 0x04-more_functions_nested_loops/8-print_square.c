@@ -5,15 +5,17 @@
  */
 void print_square(int size)
 {
-	int c, d;
+	int c, d, n;
+
+	n = size;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-		for (c = 1; c <= size; c++)
+		for (c = 1; c <= n; c++)
 		{
-			for (d = 1; d < size; d++)
+			for (d = 1; d <= n; d++)
 			{
 				_putchar('#');
 			}
