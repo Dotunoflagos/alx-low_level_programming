@@ -27,8 +27,13 @@ int main(void)
 		}
 		else if (c % 5 == 0)
 		{
-			printf("%s", b);
-			putchar(' ');
+			if (c = 100)
+				printf("%s", b);
+			else
+			{
+				printf("%s", b);
+				putchar(' ');
+			}
 		}
 		else
 		{
