@@ -14,7 +14,7 @@ void print(int n)
 /**
  * print_most_numbers - prints the alphabet in lowercase.
  */
-void print_most_numbers(void)
+void print_more_numbers(void)
 {
 	int c, d;
 
