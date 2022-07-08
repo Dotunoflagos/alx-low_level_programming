@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_most_numbers - prints the alphabet in lowercase, followed by a new line.
+* print_most_numbers - prints the alphabet in lowercase.
 */
 
 void print_most_numbers(void);
