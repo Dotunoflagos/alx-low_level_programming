@@ -5,19 +5,22 @@
  */
 void print_triangle(int size)
 {
-	int c, d;
+	int c, d, n, f;
 
+	n = size;
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
 		for (c = 1; c <= n; c++)
 		{
-			for (d = n - 1; d <= 0; d--)
+			for (d = 1; d <= n - c; d++)
 			{
 				_putchar(' ');
 			}
-			_putchar('#');
+			for (f = n - c; f <= n - 1; f++)
+				_putchar('#');
+
 			_putchar('\n');
 		}
 	}
