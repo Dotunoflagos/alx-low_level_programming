@@ -18,11 +18,7 @@ int main(void)
 		if (c % 3 == 0 && c % 5 == 0)
 		{
 			printf("%s%s", f, b);
-			if (c == 100)
-			{
-			}
-			else
-				putchar(' ');
+			putchar(' ');
 		}
 		else if (c % 3 == 0)
 		{
@@ -32,7 +28,11 @@ int main(void)
 		else if (c % 5 == 0)
 		{
 			printf("%s", b);
-			putchar(' ');
+			if (c == 100)
+			{
+			}
+			else
+				putchar(' ');
 		}
 		else
 		{
