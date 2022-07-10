@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_diagonal - prints the alphabet in lowercase.
+ * print_triangle - prints the alphabet in lowercase.
  * @size: length of line
  */
 void print_triangle(int size)
