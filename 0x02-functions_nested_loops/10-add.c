@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * add - Prints times table.
 * @a: to be added
 * @b: to be added
