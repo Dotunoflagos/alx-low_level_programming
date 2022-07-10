@@ -3,7 +3,7 @@
 * add - Prints times table.
 * @a: to be added
 * @b: to be added
-* return: addedvalue
+* Return: added value
 */
 int add(int a, int b)
 {
