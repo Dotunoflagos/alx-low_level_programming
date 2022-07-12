@@ -1,0 +1,23 @@
+#!/bin/bash
+
+Name="dotun"
+File="."
+
+# Get the options
+while getopts ":mf:" option; do
+   case $option in
+      m) # Enter a name
+         Name=$OPTARG;;
+      n) # Enter a name
+	File=$OPTARG;;
+     \?) # Invalid option
+         echo "Error: Invalid option"
+         exit;;
+   esac
+done
+
+git add $File
+sleep 2s
+git commit -m "$1.$Name"
+sleep 3s
+git push
