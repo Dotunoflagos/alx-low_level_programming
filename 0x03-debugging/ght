@@ -8,7 +8,7 @@ while getopts ":mf:" option; do
    case $option in
       m) # Enter a name
          Name=$OPTARG;;
-      n) # Enter a name
+      f) # Enter a name
 	File=$OPTARG;;
      \?) # Invalid option
          echo "Error: Invalid option"
@@ -17,8 +17,8 @@ while getopts ":mf:" option; do
 done
 
 git add $File
+echo "$Files were PUSHED"
 sleep 2s
 git commit -m "$1.$Name"
 sleep 3s
 git push
-echo "$Files were PUSHED"
