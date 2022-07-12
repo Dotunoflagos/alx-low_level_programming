@@ -21,3 +21,4 @@ sleep 2s
 git commit -m "$1.$Name"
 sleep 3s
 git push
+echo "$Files were PUSHED"
