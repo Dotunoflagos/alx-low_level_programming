@@ -4,7 +4,7 @@
 * @s: super story
 */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	return (sizeof(*s) / 4);
 }
