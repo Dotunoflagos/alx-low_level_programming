@@ -2,6 +2,7 @@
 /**
 * _strlen - prints the alphabet in lowercase, followed by a new line.
 * @s: super story
+* Return: count
 */
 
 int _strlen(char *s)
