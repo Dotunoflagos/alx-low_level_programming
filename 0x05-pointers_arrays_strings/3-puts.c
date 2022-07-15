@@ -7,9 +7,13 @@
 
 void _puts(char *str)
 {
-	while (*str != '\0')
+	char *c = str;
+	int b;
+
+	while (*c != '\0')
 	{
-		_putchar(str);
+		b = *(str + c);
+		_putchar(b);
 		c++;
 	}
 }
