@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* rev_string - prints the alphabet in lowercase, followed by a new line.
-* @s: super story
+* puts2 - prints the alphabet in lowercase, followed by a new line.
+* @str: super story
 * Return: count
 */
 
@@ -19,7 +19,7 @@ void puts2(char *str)
 	{
 		c = str[i];
 		if (c % 2 == 0)
-			_printf(c);
+			_putchar(c);
 	}
 
 }
