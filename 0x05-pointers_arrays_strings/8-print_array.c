@@ -10,7 +10,8 @@ void print_array(int *a, int n)
 {
 	int i, len;
 	
-	while (str[len] != '\0')
+	len = 0;
+	while (a[len] != '\0')
 		len++;
 
 	for (i = 0; i < n; i++)
