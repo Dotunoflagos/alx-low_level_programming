@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* puts2 - prints the alphabet in lowercase, followed by a new line.
+* puts_half - prints the alphabet in lowercase, followed by a new line.
 * @str: super story
 * Return: count
 */
