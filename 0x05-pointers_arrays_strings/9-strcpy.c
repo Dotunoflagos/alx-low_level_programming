@@ -4,7 +4,7 @@
 * _strcpy - prints the alphabet in lowercase, followed by a new line.
 * @dest: super story
 * @src: count
-* return: dest
+* Return: dest
 */
 
 char *_strcpy(char *dest, char *src)
