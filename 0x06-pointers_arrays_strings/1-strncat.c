@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _strcat - concactinates
+  * _strncat - concactinates
   * @dest: destination
   * @src: source
   * @n: length to be copied
