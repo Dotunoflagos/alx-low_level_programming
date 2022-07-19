@@ -4,6 +4,7 @@
   * _strcat - concactinates
   * @dest: destination
   * @src: source
+  * @n: length to be copied
   * Return: dest
   */
 char *_strncat(char *dest, char *src, int n)
@@ -19,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	if (n > srclen)
 		n = srclen;
 
-	for (i = destlen; i <= destlen + n; i++)
+	for (i = destlen; i <= (destlen + n) - 1; i++)
 		dest[i] = src[i - destlen];
 
 	return (dest);
