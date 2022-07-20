@@ -18,15 +18,11 @@ ichar *_strncpy(char *dest, char *src, int n)
 
 	for (i = 0; i <= len; i++)
 		dest[i] = src[i];
-
+	i++;
 	if (len < n)
 	{
-		i++;
-
-		for (i; i <= n - len; i++)
-		{
+		for ( ; i <= n - len; i++)
 			dest[i] = '\0';
-		}
 	}
 	return (dest);
 }
