@@ -8,7 +8,7 @@
   * Return:dest
   */
 
-char *_strncpy(char *dest, char *src, int n)
+ichar *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 	int len = 0;
@@ -21,7 +21,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	if (len < n)
 	{
-		len++
+		len++;
 		for ( ; i <= n - len; i++)
 		{
 			dest[i] = '\0';
