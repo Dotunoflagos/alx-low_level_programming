@@ -21,8 +21,9 @@ ichar *_strncpy(char *dest, char *src, int n)
 
 	if (len < n)
 	{
-		len++;
-		for ( ; i <= n - len; i++)
+		i++;
+
+		for (i; i <= n - len; i++)
 		{
 			dest[i] = '\0';
 		}
