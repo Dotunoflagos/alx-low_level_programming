@@ -7,11 +7,17 @@
 
 char *string_toupper(char *s)
 {
-	int i = 0;
+	int i = 0, len = 0;
 
-	while (s[i] != '\0')
+	while (s[len] != '\0')
 	{
-		s[i] = s[i] - 32;
+		len++
+	}
+
+	while (i < len - 1)
+	{
+		char tmp = s[i];
+		s[i] = tmp - 32;
 		i++;
 	}
 	return (s);
