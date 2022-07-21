@@ -3,6 +3,7 @@
 /**
   * string_toupper - changes strings to uppercase
   * @s: string to be changed
+  * Return: uppercase
   */
 
 char *string_toupper(char *s)
@@ -17,7 +18,7 @@ char *string_toupper(char *s)
 
 	while (i < len)
 	{
-		if ((s[i] >= 65 && s[i] <= 90) || s[i] == 32)
+		if ((s[i] >= 65 && s[i] <= 90) || s[i] == 32 || s[i] == 46 || s[i] == 10)
 			i++;
 		tmp = s[i];
 
