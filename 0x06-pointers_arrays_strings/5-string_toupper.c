@@ -20,10 +20,13 @@ char *string_toupper(char *s)
 	{
 		if ((s[i] >= 65 && s[i] <= 90) || s[i] == 32 || s[i] == 46 || s[i] == 10)
 			i++;
-		tmp = s[i];
+		else
+		{
+			tmp = s[i];
 
-		s[i] = tmp - 32;
-		i++;
+			s[i] = tmp - 32;
+			i++;
+		}
 	}
 	return (s);
 }
