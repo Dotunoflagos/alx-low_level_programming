@@ -8,7 +8,7 @@
 
 void reverse_array(int *a, int n)
 {
-	int b[], i = 0;
+	int b[n], i = 0;
 
 	while (*a != '\0')
 	{
