@@ -16,7 +16,7 @@ char *string_toupper(char *s)
 
 	while (i < len)
 	{
-		if ((tmp >= 65 && <= 90) || tmp == 32)
+		if ((s[i] >= 65 && s[i] <= 90) || tmp == 32)
 			i++;
 		char tmp = s[i];
 
