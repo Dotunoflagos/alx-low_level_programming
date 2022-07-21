@@ -8,6 +8,7 @@
 char *string_toupper(char *s)
 {
 	int i = 0, len = 0;
+	char tmp;
 
 	while (s[len] != '\0')
 	{
@@ -18,7 +19,7 @@ char *string_toupper(char *s)
 	{
 		if ((s[i] >= 65 && s[i] <= 90) || s[i] == 32)
 			i++;
-		char tmp = s[i];
+		tmp = s[i];
 
 		s[i] = tmp - 32;
 		i++;
