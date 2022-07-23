@@ -14,7 +14,7 @@ char *cap_string(char *ch)
 
 	for ( ; i <= chlen; i++)
 	{
-		if (i == 0 && (ch[i] >= 65 && ch[i] <= 122))
+		if (i == 0 && (ch[i] >= 65 && ch[i] <= 90))
 		{
 			ch[i] -= 32;
 		}
