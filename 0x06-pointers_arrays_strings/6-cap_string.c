@@ -24,6 +24,5 @@ char *cap_string(char *ch)
 				ch[i] -= 32;
 		}
 	}
-
 	return (ch);
 }
