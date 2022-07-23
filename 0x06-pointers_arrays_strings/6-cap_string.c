@@ -21,7 +21,13 @@ char *cap_string(char *ch)
 		else if (ch[i] >= 97 && ch[i] <= 122)
 		{
 			if (ch[i - 1] == 32)
-				ch[i] -= 32;
+			{
+				if (ch[i] == 10)
+				{
+				}
+				else
+					ch[i] -= 32;
+			}
 		}
 	}
 
