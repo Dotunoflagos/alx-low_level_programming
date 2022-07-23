@@ -7,12 +7,12 @@
 
 char *cap_string(char *ch)
 {
-	int chLen = 0, i = 0;
+	int chlen = 0, i = 0;
 
 	while (ch[chlen] != '\n')
 		chlen++;
 
-	for ( ; i <= chLen; i++)
+	for ( ; i <= chlen; i++)
 	{
 		if (i == 0)
 		{
@@ -24,4 +24,6 @@ char *cap_string(char *ch)
 				ch[i] += 32;
 		}
 	}
+
+	return (ch);
 }
