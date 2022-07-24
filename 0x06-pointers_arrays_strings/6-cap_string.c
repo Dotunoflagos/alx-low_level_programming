@@ -3,6 +3,7 @@
 /**
  * cap_string - capitalise wwords
  * @ch: input character
+ * Return: caps
  */
 
 char *cap_string(char *ch)
