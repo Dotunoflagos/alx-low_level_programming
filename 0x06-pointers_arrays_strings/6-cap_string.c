@@ -9,7 +9,7 @@ char *cap_string(char *ch)
 {
 	int chlen = 0, i = 0;
 
-i	while (ch[chlen] != '\0')
+	while (ch[chlen] != '\0')
 		chlen++;
 
 	for ( ; i <= chlen; i++)
