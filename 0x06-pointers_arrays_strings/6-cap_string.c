@@ -20,7 +20,7 @@ char *cap_string(char *ch)
 		}
 		else if (ch[i] >= 97 && ch[i] <= 122)
 		{
-			if (ch[i - 1] == 10 || ch[i - 1] == 32 || ch[i - 1] == 46 || ch[i]== 9)
+			if (ch[i - 1] == 10 || ch[i - 1] == 32 || ch[i - 1] == 46 || ch[i - 1] == 9)
 				ch[i] -= 32;
 		}
 	}
