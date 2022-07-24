@@ -9,7 +9,7 @@ char *cap_string(char *ch)
 {
 	int chlen = 0, i = 0;
 
-	while (ch[chlen] != '\0')
+i	while (ch[chlen] != '\0')
 		chlen++;
 
 	for ( ; i <= chlen; i++)
@@ -20,7 +20,7 @@ char *cap_string(char *ch)
 		}
 		else if (ch[i] >= 97 && ch[i] <= 122)
 		{
-			if (ch[i - 1] == 10 || ch[i] == 32 || ch[i] == 46)
+			if (ch[i - 1] == 10 || ch[i - 1] == 32 || ch[i - 1] == 46)
 				ch[i] -= 32;
 		}
 	}
