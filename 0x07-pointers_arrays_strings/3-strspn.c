@@ -13,12 +13,12 @@ unsigned int _strspn(char *s, char *accept)
 	while (s[slen] != '\0')
 		slen++;
 
-	while (sccept[acclen] != '\0')
+	while (accept[acclen] != '\0')
 		acclen++;
 
 	for (i = 0; i <= slen; i++)
 	{
-		for (j = 0; j <= actlen; j++)
+		for (j = 0; j <= acclen; j++)
 		{
 			if (s[i] == accept[j])
 				e++;
