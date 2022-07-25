@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _memset - copies
- * @s: pointer to the memory aera
- * @b: bytes of memory
+ * _memcpy - copies
+ * @dest: pointer to the memory aera
+ * @src: bytes of memory
  * @n: count byte
  * Return: the memory add of s
  */
