@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - prints chess board
- * @ a: chess board
+ * @a: chess board
  */
 
 void print_chessboard(char (*a)[8])
@@ -16,6 +16,7 @@ void print_chessboard(char (*a)[8])
 			_putchar(a[i][j]);
 			j++;
 		}
+		j = 0;
 		_putchar('\n');
 		i++;
 	}
