@@ -3,12 +3,12 @@
 /**
  * _memset - fills memory with constant byte
  * @s: pointer to the memory aera
- * @b: bytes of memory 
+ * @b: bytes of memory
  * @n: count byte
  * Return: the memory add of s
  */
 
- char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i = 0;
 
