@@ -23,7 +23,8 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == accept[j])
 				e++;
 		}
-
+		if (s[i] == ' ')
+			break;
 	}
 
 	return (e);
