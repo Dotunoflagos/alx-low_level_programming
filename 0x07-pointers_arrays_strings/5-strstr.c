@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strpbrk - search for charactyers
- * @s: string
- * @accept: to be searched for
+ * _strstr - search for charactyers
+ * @haystack: string
+ * @needle: to be searched for
  * Return: number
  */
 
@@ -23,7 +23,7 @@ char *_strstr(char *haystack, char *needle)
 		{
 			if (haystack[i + j] != needle[j])
 			{
-				break
+				break;
 			}
 		}
 		if (needle[j] == '\0')
