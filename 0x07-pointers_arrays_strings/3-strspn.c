@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _strspn - search for charactyers 
+ * _strspn - search for charactyers
  * @s: string
  * @accept: to be searched for
+ * Return : number
+
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -16,9 +18,9 @@ unsigned int _strspn(char *s, char *accept)
 	while (accept[acclen] != '\0')
 		acclen++;
 
-	for (i = 0; i <= slen; i++)
+	for (i = 0; i <= slen - 1; i++)
 	{
-		for (j = 0; j <= acclen; j++)
+		for (j = 0; j <= acclen - 1; j++)
 		{
 			if (s[i] == accept[j])
 				e++;
