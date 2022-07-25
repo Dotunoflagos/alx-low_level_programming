@@ -4,8 +4,7 @@
  * _strspn - search for charactyers
  * @s: string
  * @accept: to be searched for
- * Return : number
-
+ * Return: number
  */
 
 unsigned int _strspn(char *s, char *accept)
