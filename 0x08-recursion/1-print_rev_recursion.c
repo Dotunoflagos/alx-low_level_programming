@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_rev_recursion - prints strings
+ * _print_rev_recursion - prints strings
  * @s: to be printed
  * Return: breaks loop
  */
