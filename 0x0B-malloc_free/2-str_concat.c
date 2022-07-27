@@ -51,9 +51,10 @@ char *str_concat(char *s1, char *s2)
 		i++;
 	}
 
-	while ( ; i < s1len + s2len)
+	while (i < s1len + s2len)
 	{
-		arr[i] = s2[i];
+		arr[i] = s2[i - s2len];
+		i++;
 	}
 
 	return (arr);
