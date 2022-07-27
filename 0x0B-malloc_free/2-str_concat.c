@@ -12,7 +12,7 @@ int count(char *s)
 {
 	int i = 0;
 
-	if (*s == NULL)
+	if (s == NULL)
 	{
 		s[i] = '\0';	
 		return (i);
@@ -37,7 +37,7 @@ int count(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *arr;
-	int s1len = 0, s2len = 0;
+	int s1len = 0, s2len = 0, i = 0;
 	s1len = count(s1);
 	s2len = count(s2);
 	
