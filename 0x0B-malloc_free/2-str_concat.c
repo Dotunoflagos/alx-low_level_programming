@@ -14,7 +14,7 @@ int count(char *s)
 
 	if (s == NULL)
 	{
-		s = "";	
+		s = "";
 		return (i);
 	}
 	else
@@ -41,9 +41,7 @@ char *str_concat(char *s1, char *s2)
 
 	s1len = count(s1);
 	s2len = count(s2);
-	
 	arr = malloc(sizeof(char) *  (s1len + s2len + 1));
-	
 	if (arr == NULL)
 		return (NULL);
 
