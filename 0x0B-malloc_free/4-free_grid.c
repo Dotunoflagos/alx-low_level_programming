@@ -8,7 +8,7 @@
  * @height: innitialised with
  */
 
-void free_grid(int **grid, int height);
+void free_grid(int **grid, int height)
 {
 	int **arr;
 	int i = 0;
