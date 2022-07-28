@@ -3,9 +3,9 @@
 #include "stdlib.h"
 
 /**
- * create_array - creats an array
- * @size: size of array
- * @c: innitialised with
+ * alloc_grid - creats an array
+ * @width: size of array
+ * @height: innitialised with
  * Return: NULL or a pointer
  */
 
