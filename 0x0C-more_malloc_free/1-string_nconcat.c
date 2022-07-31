@@ -4,25 +4,27 @@
 /**
  * _strlen - find length of string
  * @s: string
+ * Return: Returns string lebgth
  */
 
 unsigned int _strlen(char *s)
 {
 	unsigned int i;
 
-	for(i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 		;
-	return(i);
+	return (i);
 }
 
 /**
  * string_nconcat - joins strings
  * @s1: string one
  * @s2: string two
+ * @n: number of strings to be coppied
  * Returns: pointer or NULL
  */
 
- char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int lengths1, lengths2, i, j;
 	char *p;
