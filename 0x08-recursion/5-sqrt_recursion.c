@@ -19,7 +19,7 @@ int square_root(int i, int j)
 
 }
 /**
- * _sqrt_recursion - returns 
+ * _sqrt_recursion - returns
  * @n: number
  * Return: square root found
  */
@@ -29,3 +29,4 @@ int _sqrt_recursion(int n)
 
 	return (square_root(a, n));
 }
+
