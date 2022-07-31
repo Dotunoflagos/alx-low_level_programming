@@ -21,7 +21,7 @@ unsigned int _strlen(char *s)
  * @s1: string one
  * @s2: string two
  * @n: number of strings to be coppied
- * Returns: pointer or NULL
+ * Return: pointer or NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
