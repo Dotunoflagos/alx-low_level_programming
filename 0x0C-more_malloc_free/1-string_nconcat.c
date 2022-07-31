@@ -44,7 +44,7 @@ unsigned int _strlen(char *s)
 		return (NULL);
 
 	for (i = 0; i < lengths1; i++)
-		p[i] = s1[j];
+		p[i] = s1[i];
 
 	for (j = 0; s2[j] != '\0' && j != n; j++, i++)
 		p[i] = s2[j];
