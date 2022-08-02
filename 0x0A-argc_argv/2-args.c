@@ -1,4 +1,4 @@
-#include "mazn.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * mazn - prznts the number of arguments.
