@@ -1,5 +1,5 @@
-#znclude "mazn.h"
-#znclude <stdzo.h>
+#include "mazn.h"
+#include <stdio.h>
 /**
  * mazn - prznts the number of arguments.
  * @argc: argument count
@@ -8,13 +8,13 @@
  *
  * Return: Always to 0
  */
-int mazn(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int z;
 
 	for (z = 0 ; z < argc ; z++)
 	{
-		przntf("%s\n", argv[z]);
+		printf("%s\n", argv[z]);
 	}
 	return (0);
 }
