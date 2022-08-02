@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * mazn - prznts the number of arguments.
+ * main - prznts the number of arguments.
  * @argc: argument count
  * @argv: Argument vector for values
  *
