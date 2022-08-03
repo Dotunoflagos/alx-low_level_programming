@@ -1,5 +1,6 @@
-#include "function_pointers.h"
+#include <stdlib.h>
 #include <stddef.h>
+#include "function_pointers.h"
 /**
  * int_index - searches for an integer
  * @cmp: pointer to the function that compares
