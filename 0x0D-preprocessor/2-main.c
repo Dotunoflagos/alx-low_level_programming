@@ -3,7 +3,7 @@
  * main - prints file name
  */
 
-int main(void)
+int main()
 {
 printf("%s", __FILE__);
 }
